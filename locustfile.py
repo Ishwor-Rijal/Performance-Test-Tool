@@ -10,7 +10,7 @@ import time
 
 # Load environment variables
 load_dotenv()
-BASE_URL = os.getenv("BASE_URL", "https://sabina.sandbox.mykademy.com")
+BASE_URL = os.getenv("BASE_URL", "http://localhost")
 USERNAME = os.getenv("USERNAME")
 PASSWORD = os.getenv("PASSWORD")
 COOKIE = os.getenv("COOKIE")
